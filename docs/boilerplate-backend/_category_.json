@@ -1,8 +1,8 @@
 {
   "label": "Boilerplate - Backend",
-  "position": 2,
+  "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "nest.js 기반의 Boilerplate - Backend 프로젝트 정리"
+    "description": "Boilerplate - Backend 프로젝트 정리"
   }
 }
