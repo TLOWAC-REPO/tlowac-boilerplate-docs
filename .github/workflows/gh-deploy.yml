@@ -18,9 +18,6 @@ jobs:
       contents: write
     concurrency:  # github action 충돌 방지
       group: ${{ github.workflow }}-${{ github.ref }}
-    defaults: # github action 동작시 작업 공간 폴더명 정의
-      run:
-        working-directory: website
     steps:
       - uses: actions/checkout@v3
 
@@ -49,4 +46,4 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./website/build  # 빌드 결과물 배포
+          publish_dir: ./build  # 빌드 결과물 배포
