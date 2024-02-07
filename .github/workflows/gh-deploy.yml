@@ -4,11 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - '.github/workflows/gh-deploy.yml'
-      - 'src/**'
-      - 'docs/**'
-      - 'blog/**'
   pull_request:
 
 jobs:
