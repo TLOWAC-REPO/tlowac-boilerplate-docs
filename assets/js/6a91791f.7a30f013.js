@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[448],{2362:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/tlowac-boilerplate-docs/blog/tags/docusaurus","allTagsPath":"/tlowac-boilerplate-docs/blog/tags","count":4,"unlisted":false}')}}]);
